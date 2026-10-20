@@ -1,0 +1,15 @@
+node_modules/
+dist/
+scripts/.smoke.cjs
+scripts/.smoke.mjs
+scripts/.tmp/
+.DS_Store
+
+# variables de entorno (nunca deben subirse)
+.env
+.env.*
+!.env.example
+
+# copias de seguridad con datos de clientes: NUNCA subirlas al repo
+eli-styles-copia-*.json
+*.local
